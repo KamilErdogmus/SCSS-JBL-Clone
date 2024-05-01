@@ -1,0 +1,32 @@
+.favorite {
+  text-align: center;
+  padding: 10px 40px;
+  white-space: nowrap;
+  &-card {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    div {
+      display: flex;
+      gap: 30px;
+    }
+    img {
+      width: 200px;
+      &:hover {
+        scale: 1.25;
+      }
+    }
+  }
+}
+@media screen and (max-width: 850px) {
+  .favorite {
+    &-card {
+      div {
+        flex-direction: column;
+      }
+    }
+  }
+  .footer {
+    margin-left: 0;
+  }
+}

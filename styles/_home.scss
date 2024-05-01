@@ -1,0 +1,91 @@
+.home {
+  &-container {
+    display: flex;
+    padding: 112px 16px;
+    position: relative;
+  }
+  &-content {
+    display: grid;
+    justify-self: center;
+    position: relative;
+  }
+  &-img {
+    width: 220px;
+  }
+  &-title {
+    display: flex;
+    position: absolute;
+    column-gap: 7px;
+    justify-self: center;
+    top: -32px;
+    color: var(--first-color);
+    font-size: var(--biggest-font-size);
+    span:nth-child(2) {
+      z-index: -2;
+    }
+  }
+  .tooltip {
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    &-img {
+      width: 60px;
+    }
+    &-price {
+      position: absolute;
+      color: var(--white-color);
+      background: var(--gradient-color);
+      transform: translate(58px, -40px);
+      border-radius: 64px;
+      padding: 6px 12px;
+      white-space: nowrap;
+    }
+  }
+  &-social {
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    top: 140px;
+    left: -204px;
+    row-gap: 96px;
+    &-text {
+      position: relative;
+      rotate: 100grad;
+      font-size: var(--small-font-size);
+      font-weight: var(--font-medium);
+      &::after {
+        content: "";
+        background-color: var(--text-color);
+        height: 1px;
+        width: 50px;
+        bottom: 0;
+        margin: auto;
+        right: -64px;
+        position: absolute;
+        top: 0;
+      }
+    }
+    &-links {
+      display: grid;
+      row-gap: 12px;
+      margin: auto;
+    }
+    &-link {
+      font-size: 24px;
+      color: var(--text-color);
+      transition: all 0.4s;
+      &:hover {
+        color: var(--first-color);
+      }
+    }
+  }
+  &-btn {
+    justify-self: center;
+  }
+}
+@media screen and (max-width: 850px) {
+  .home-social {
+    top: 40px;
+    left: -90px;
+  }
+}

@@ -1,0 +1,44 @@
+.model {
+  & h2 {
+    text-align: center;
+  }
+  &-container {
+    padding-top: 32px;
+  }
+  &-content {
+    position: relative;
+    justify-self: center;
+  }
+  &-img {
+    width: 280px;
+  }
+  &-tooltip {
+    position: absolute;
+    & span {
+      white-space: nowrap;
+      padding: 6px 12px;
+      position: absolute;
+      border-radius: 64px;
+      transform: translate(60px, -55px);
+      color: var(--white-color);
+      background: var(--gradient-color);
+      font-size: var(--normal-font-size);
+    }
+    &-1 {
+      top: 90px;
+      right: 120px;
+    }
+    &-2 {
+      top: 15px;
+      right: 0px;
+    }
+    &-3 {
+      top: 220px;
+      right: 180px;
+    }
+    &-4 {
+      top: 125px;
+      right: 50px;
+    }
+  }
+}

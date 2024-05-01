@@ -1,0 +1,16 @@
+.about {
+  &-container {
+  }
+  &-data {
+    text-align: center;
+  }
+  &-description {
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  &-img {
+    width: 230px;
+    // margin: auto;
+    justify-self: center;
+  }
+}
