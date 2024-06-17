@@ -26,7 +26,7 @@ This project is a responsive website created using HTML, CSS, and Bootstrap. It 
 
 ## GIF
 
-![Website](img/GIF.gif)
+![Website](images/GIF.gif)
 
 ## Link
 
