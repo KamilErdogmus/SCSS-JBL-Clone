@@ -20,7 +20,7 @@ This project is a responsive website created using HTML, CSS, and Bootstrap. It 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/jbl-website-clone.git
+   git clone https://github.com/KamilErdogmus/SCSS-JBL-Clone.git
    
 2. Open the index.html file in your browser to view the website.
 
